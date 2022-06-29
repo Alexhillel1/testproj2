@@ -64,6 +64,14 @@ select {
   margin: 0 auto;
   padding: 0 15px; /*чтобы небыло прилипания*/
 }
+a {
+  color: #ed4c5c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 .header-wrap {
   background: url(/img/bg-head.jpg) top center no-repeat;
   background-size: cover;
@@ -137,4 +145,31 @@ select {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 6px;
+}
+
+.about-wrap {
+  padding: 100px 0;
+}
+
+.about-block {
+  display: flex;
+}
+
+.about-block-left,
+.about-block-right {
+  width: 40%;
+  margin-right: 10%;
+  align-self: center;
+}
+
+.about-block-left h2 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.about-block-left p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
 }
