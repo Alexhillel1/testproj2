@@ -174,3 +174,50 @@ a:hover {
   margin-bottom: 2rem;
   line-height: 25px;
 }
+
+.posib-wrap {
+  background: #fafafa;
+  padding: 70px 0;
+}
+
+.posib-wrap h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-bottom: 4rem;
+}
+
+.posib-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.posib-item {
+  max-width: 350px;
+  text-align: center;
+  color: #101010;
+  display: flex;
+  flex-direction: column;
+}
+
+.posib-txt {
+  background: #fff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px 20px 1px 20px;
+  margin: -95px 30px 0 30px;
+  z-index: 1;
+  position: relative;
+  flex-grow: 1;
+}
+.posib-txt h3 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+.posib-txt p {
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-bottom: 20px;
+}
